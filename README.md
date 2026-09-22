@@ -8,3 +8,4 @@ Agent DevOps intelligent — comme Claude Code mais pour DevOps/Cloud
 - Infra: Kubernetes + Terraform
 - Agent client: Python WebSocket
 jenkinsfile
+jihed
