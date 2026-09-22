@@ -1,26 +1,11 @@
-pipline {
-	agent any {
-	stages {
-		stage('Checkout') {
-			steps {
-				checkout scm 
-				
-			
-}			
-		
+pipeline {
+    agent any
 
-}
-		stage('Build') {
-			steps {
-				sh 'echo building application'
-
-}
-
-
-}
-
-
-}
-
-}
+    stages {
+        stage('Test') {
+            steps {
+                echo 'Jenkins fonctionne correctement'
+            }
+        }
+    }
 }
